@@ -1,0 +1,21 @@
+import "google/protobuf/empty.proto";
+syntax = "proto3";
+
+
+package cityinfo;
+
+service GeoCity {  
+  rpc GetCities (google.protobuf.Empty) returns (CitiesReply) {}  
+}
+
+
+message City {
+  string country = 1;
+  string name = 2;
+  float lat = 3;
+  float lng = 4;  
+}
+
+message CitiesReply {
+  repeated City cities = 1;
+}
