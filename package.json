@@ -26,7 +26,7 @@
     "grpc-caller": "^0.12.0",
     "highland": "^2.13.4",
     "mali": "^0.15.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "performance-now": "^2.1.0"
   },
   "scripts": {
